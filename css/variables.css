@@ -1,0 +1,38 @@
+:root {
+    --color-bg: #FFFFFF;
+    --color-bg-alt: #F4F1FA;
+    --color-surface: #FFFFFF;
+    --color-dark: #1E2A5A;
+    --color-dark-soft: #2B3A78;
+    --color-text: #2A2F45;
+    --color-muted: #6B6F86;
+    --color-accent: #F28C28;
+    --color-accent-hover: #D9781A;
+    --color-accent-soft: rgba(242, 140, 40, 0.16);
+    --color-secondary: #8B6DB8;
+    --color-secondary-soft: rgba(139, 109, 184, 0.14);
+    --color-blue: #2B5CB8;
+    --color-blue-soft: rgba(43, 92, 184, 0.12);
+    --color-border: #E5E1F0;
+    --color-danger: #C8553D;
+    --font-heading: 'Unbounded', system-ui, sans-serif;
+    --font-body: 'Manrope', system-ui, sans-serif;
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 28px;
+    --radius-pill: 999px;
+    --shadow-soft: 0 12px 32px rgba(30, 42, 90, 0.08);
+    --shadow-card: 0 8px 24px rgba(30, 42, 90, 0.06);
+    --shadow-lift: 0 20px 48px rgba(30, 42, 90, 0.14);
+    --container: 1160px;
+    --space-section: clamp(64px, 8vw, 104px);
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+    --dur-fast: 0.25s;
+    --dur-med: 0.45s;
+    --dur-slow: 0.8s;
+    --header-h: 72px;
+}
+@media (max-width: 480px) {
+    :root { --header-h: 64px; }
+}
